@@ -4,56 +4,52 @@
 This project is the implementation code for the paper:
 Bahrami, S., Chen, Y. C., and Wong, V. W. S., “Deep reinforcement learning for demand response in distribution networks,” IEEE Transactions on Smart Grid, vol. 12, no. 2, pp. 1496–1506, Mar. 2021.
 
+Please read the project report for more details about this paper and implementation tricks.
+
 ## Built With
 Jupyter Notebook
 
 ## Getting Started
 Before running this code, make sure the following libraries are installed:
 
-* import pandas
+* pandas
   ```sh
-  conda install pandas
+  conda install pandas  
   ```
 
-* import numpy as np
+* numpy
   ```sh
-  npm install npm@latest -g
+  conda install numpy
   ```
 
-* import random
+* random
   ```sh
-  npm install npm@latest -g
+  pip install random
   ```
   
-* import tensorflow as tf
+* tensorflow
   ```sh
-  npm install npm@latest -g
+  pip install --upgrade tensorflow
   ```
   
-* import os
+* tensorflow_probability
   ```sh
-  npm install npm@latest -g
+  pip install --upgrade tensorflow-probability
   ```
   
-* import tensorflow_probability as tfp
+* math
   ```sh
-  npm install npm@latest -g
+  pip install python-math
   ```
   
-* import math
+* matplotlib
   ```sh
-  npm install npm@latest -g
-  ```
-  
-* import matplotlib.pyplot
-  ```sh
-  npm install npm@latest -g
+  pip install matplotlib
   ```
 
-*** ask Jay about the headings below:
 ### Prerequistes 
 Ensure the file InputData_HouseholdStates.xls is in the directory.
-### Installation
+
 
 ## Acknowledgements
 I would like to acknowledge the following examples that helped me learn, structure and implement this code:
