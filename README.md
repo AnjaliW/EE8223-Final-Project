@@ -44,6 +44,11 @@ Before running this code, make sure the following libraries are installed:
   ```sh
   npm install npm@latest -g
   ```
+  
+* import matplotlib.pyplot
+  ```sh
+  npm install npm@latest -g
+  ```
 
 *** ask Jay about the headings below:
 ### Prerequistes 
