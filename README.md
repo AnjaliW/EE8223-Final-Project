@@ -9,7 +9,15 @@ Please read the project report for more details about this paper and implementat
 ## Built With
 Jupyter Notebook
 
-## Getting Started
+## File Descriptions on GitHub
+0. dayprof : function used by ML_Inputs
+1. InputData_HouseholdStates : synthetic data created as input for Python script, Main Actor Critic Demand Response
+2. Main Actor Critic Demand Response : main code in .py and .ipynb which ever you would like to refer to
+3. ML_Inputs : script to read in Raw_Data_Calculation to output synthetic data InputData_HouseholdStates
+4. Raw_Data_Calculation : spreadsheet used to build raw data based on research included and documented here
+5. tmp/actor_critic : weights saved for actor-critic model
+
+## Installations
 Before running this code, make sure the following libraries are installed:
 
 * pandas
@@ -47,8 +55,11 @@ Before running this code, make sure the following libraries are installed:
   pip install matplotlib
   ```
 
-### Prerequistes 
-Ensure the file InputData_HouseholdStates.xls is in the directory.
+## Steps to Run Project
+0. Download and save all files
+1. Run ML_Inputs.m in MATLAB which will call on dayprof.m and Raw_Data_Calculation.xls
+2. ML_Inputs.m will output InputData_HouseholdStates.xls
+3. Run Main Actor Critic Demand Response.py which calls on InputData_HouseholdStates.xls to get all results shown in report * make sure all installations above are complete*
 
 
 ## Acknowledgements
